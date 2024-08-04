@@ -29,6 +29,8 @@ HOST_ARCH := x86
 
 include makefile_us_alveo.mk
 
+SHELL := /usr/bin/bash
+
 ############################## Help Section ##############################
 help:
 	$(ECHO) "Makefile Usage:"
